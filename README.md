@@ -3,46 +3,12 @@
 BillingApp is a mobile application developed to manage bills using RecyclerViews and Rooms Database. The app includes features for adding, editing, and deleting bills and provides a user-friendly interface for managing these tasks.
 
 ## Table of Contents
-- [Project Structure](#project-structure)
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Structure
-.
-├── app
-│   ├── src
-│   │   ├── main
-│   │   │   ├── java
-│   │   │   │   └── com
-│   │   │   │       └── example
-│   │   │   │           └── billingapp
-│   │   │   │               ├── MainActivity.java
-│   │   │   │               ├── Bill.java
-│   │   │   │               ├── BillAdapter.java
-│   │   │   │               └── fragments
-│   │   │   │                   ├── BillsFragment.java
-│   │   │   │                   ├── CreateBillFragment.java
-│   │   │   │                   ├── EditBillFragment.java
-│   │   │   │                   ├── BillSummaryFragment.java
-│   │   │   │                   ├── SelectCategoryFragment.java
-│   │   │   │                   └── SelectDiscountFragment.java
-│   │   │   ├── res
-│   │   │   │   ├── layout
-│   │   │   │   │   ├── activity_main.xml
-│   │   │   │   │   ├── fragment_bills.xml
-│   │   │   │   │   ├── fragment_create_bill.xml
-│   │   │   │   │   ├── fragment_edit_bill.xml
-│   │   │   │   │   ├── fragment_bill_summary.xml
-│   │   │   │   │   ├── fragment_select_category.xml
-│   │   │   │   │   └── fragment_select_discount.xml
-│   │   │   ├── values
-│   │   │       ├── strings.xml
-│   │   │       └── styles.xml
-└── build.gradle
-└── README.md
 
 ## Features
 	•	Welcome Activity: Displays a welcome screen with a “Start” button that navigates to the main activity.
